@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom"
-import members from "../../utils/Members"
+import members from "../../constants/members"
 
 const Customer = () => {
   const { id } = useParams();

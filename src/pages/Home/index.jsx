@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { members } from "../../utils/Members";
+import members from "../../constants/members"
 import "./style.css"
 
 const Home = () => {
