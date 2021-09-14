@@ -1,7 +1,8 @@
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-import Home from "./Components/Home";
-import Customer from "./Components/Customer";
+import Home from "./pages/Home";
+import Customer from "./pages/Customer";
+import Company from "./pages/Company";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/company/:id">
-            <Customer></Customer>
+            <Company></Company>
           </Route>
           <Route exact path="/customer/:id">
             <Customer></Customer>
